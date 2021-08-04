@@ -2,7 +2,7 @@
   <script>
      var childWindow = "";
     var newTabUrl="http://localhost:8081/app/home";
-    childWindow = open(newTabUrl);
+    childWindow = window.open(newTabUrl, "_self");
     childWindow.location.href=newTabUrl;
   </script>
 </html>
