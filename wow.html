@@ -1,5 +1,8 @@
 <html>
   <script>
-    window.open("https://example.com");
+     var childWindow = "";
+    var newTabUrl="http://localhost:8081/app/home";
+    childWindow = window.open(newTabUrl);
+    childWindow.location.href=newTabUrl;
   </script>
 </html>
